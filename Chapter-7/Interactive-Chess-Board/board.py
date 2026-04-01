@@ -1,4 +1,5 @@
-import sys, copy
+import sys
+import copy
 
 STARTING_PIECES = {'a8': 'bR', 'b8': 'bN', 'c8': 'bB', 'd8': 'bQ',
 'e8': 'bK', 'f8': 'bB', 'g8': 'bN', 'h8': 'bR', 'a7': 'bP', 'b7': 'bP',
@@ -192,3 +193,4 @@ while True:
                 main_board[x + y] = response[1]
     elif response[0] == 'quit':
         sys.exit()
+        
